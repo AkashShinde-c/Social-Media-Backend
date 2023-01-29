@@ -1,0 +1,19 @@
+<h1>Select operation</h1>
+
+<form action="/users/" method="get">
+    Enter Username
+    <input type="text" name="username">
+    <input type="submit" value="Search User">
+  </form>
+ 
+  <form action="/users/followers" method="get">
+    Enter Username
+    <input type="text" name="username">
+    <input type="submit" value="Search followers for user">
+  </form>
+
+  <form action="/users/follow" method="post">
+    Enter Username
+    <input type="text" name="username">
+    <input type="submit" value="Follow">
+  </form>

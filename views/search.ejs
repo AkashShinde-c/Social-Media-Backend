@@ -1,0 +1,13 @@
+<h1>User Information</h1>
+<ul>
+    <% if(user){%>
+  <li>Username: <%= user.username %></li>
+  <li>Email: <%= user.email %></li>
+  <li>Followers: <%= user.followers.length %></li>
+  <li>Following: <%= user.following.length %></li>
+  <%}%>
+
+  <% if(followers) {%>
+    Followers for the user: <%= followers%>    
+<%}%>
+</ul>
